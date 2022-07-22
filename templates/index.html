@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SiiZO</title>
+    <style>
+      #submit:hover{
+        background-color: #f5f5f5;
+      }
+    </style>
+  </head>
+  <body style="background-image: url(/static/builtin/doctor.jpg); background-size: 215%; background-position: center; background-repeat: no-repeat; background-color: #0e1319; color: white; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <div>
+      <h1 style="font-weight: normal; font-size: 70px; color: #00bfa5; ">SiiZO</h1>
+      <p style="font-weight: normal; font-size: 30px; color: #eeff41;">Weight Prediction <br>using height as input</p>
+    </div>
+    <div style="float: right; position: absolute; right: 40%; top: 40%;">
+      <form action="/result" method="get">
+        <label for="height">Enter Height</label><br><br>
+        <input type="text" name="height" placeholder="Height In ft" style="border: none; border-radius:4px; padding: 10px; background-color: #eeff41; font-family: Verdana, Geneva, Tahoma, sans-serif;" size="30" /></br><br>
+        <input type="submit" id="submit" value="Submit" style="border: none; margin: 5px; text-align: center; border-radius:4px; padding:10px; background-color: #00bfa5; color: white; font-family: Verdana, Geneva, Tahoma, sans-serif;" />
+      </form>
+      <div>
+          <p>The weight for {{ht}}'ft height is {{wt}} kg</p>
+      </div>
+    </div>
+  </body>
+</html>

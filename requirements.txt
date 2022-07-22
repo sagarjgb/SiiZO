@@ -1,0 +1,16 @@
+Flask==2.1.2
+Flask-SQLAlchemy==2.5.1
+fonttools==4.33.3
+greenlet==1.1.2
+Jinja2==3.1.2
+matplotlib==3.5.2
+pandas==1.4.3
+pexpect==4.6.0
+Pillow==9.2.0
+PyMySQL==1.0.2
+requests==2.22.0
+requests-unixsocket==0.2.0
+scikit-learn==1.1.1
+scipy==1.8.1
+sklearn==0.0
+
